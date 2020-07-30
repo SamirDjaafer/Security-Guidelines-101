@@ -14,8 +14,9 @@
 2. Private SSH keys should be added to .gitignore
 3. Anything private such as passwords should be placed in .gitignore before pushing to GitHub
 4. Security Groups and NACL's should have port 22 open only to your IP.
-5. Dynamic IP variables should be kept in gitignore
+5. Dynamic IP variables should be used 
 6. Any form of credentials should be encrypted or ignored (Important!)
+7. Hidden folders such as .bashrc should be made of use with env variables
 
 ### Best practices with areas of risk and tools
 
